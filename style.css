@@ -1,0 +1,51 @@
+body{
+    background: url("images/background.png") no-repeat;
+    background-size: 100%;
+}
+div{
+    padding: 20% 0 0 44%;
+}
+.sprite {
+    background: url("images/sprite_running.png") no-repeat;
+    width: 180px;
+    height: 270px;
+    position: absolute;
+}
+.flip-it {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    filter: FlipH;
+}
+.border{
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+.position1 {
+    background-position: 0px -22px;
+}
+.position2 {
+    background-position: -200px -20px;
+}
+.position3 {
+    background-position: -414px 10px;
+}
+.position4 {
+    background-position: -600px -20px;
+}
+.position5 {
+    background-position: -800px -21px;
+}
+.position6 {
+    background-position: 0px -314px;
+}
+.position7 {
+    background-position: -212px -295px;
+}
+.position8 {
+    background-position: -400px -318px;
+}
